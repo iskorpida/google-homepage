@@ -1,0 +1,42 @@
+.normal-link{
+    color: gray;
+    text-decoration: none;
+}
+.normal-link:hover{
+    text-decoration: underline;
+}
+header{
+    display: flex;
+    justify-content: end;
+}
+header .links{
+    margin-top: 5px;
+}
+
+header .normal-link{
+    padding:5px 10px 0px 0px; 
+       
+}
+header #pp{       
+    border: 0px solid gray;
+    border-radius: 50%;  
+    height: 30px;
+    flex-direction: row-reverse; 
+}
+header .image-container{
+     margin-top: 0px;
+ }
+
+
+main #google-logo{
+    height: 100px;
+    width: auto;
+ }
+main .logo{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+ }
+main .logo #google-logo{
+    padding-top: 197px;
+}
