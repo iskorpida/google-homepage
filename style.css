@@ -40,3 +40,20 @@ main .logo{
 main .logo #google-logo{
     padding-top: 197px;
 }
+main .search-box{
+    display: flex;
+    justify-content: center;
+    margin-top:50px;
+    
+}
+
+main .search-box #search{
+    border-radius: 50%;
+}
+main .search-buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+    padding: 10px 10px 0px 0px;
+    
+}
